@@ -1,5 +1,7 @@
 #rolling of a dice game
 # number guessing game
+print("Welcome to number guessing game in dice")
+name=("enter your name: ")
 import random
 f="y"
 a=0
@@ -14,4 +16,5 @@ while f=="y":
         print("you chose",user,"and computer chose",com)
         print("you lost sorry")
     f=input("do you want to play more y/n: ")
-print("your total score is",a)
+print(name,"scored:",a)
+print("thank you for playing game")
